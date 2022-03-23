@@ -26,8 +26,5 @@ let package = Package(
             dependencies: [],
             exclude: ["Extensions/Bundle+Resources.swift"],
             resources: [.process("Resources/Gallery.bundle")]),
-        .testTarget(
-            name: "GalleryTests",
-            dependencies: ["Gallery"]),
     ]
 )
